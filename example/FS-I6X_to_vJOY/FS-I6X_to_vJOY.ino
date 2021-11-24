@@ -2,7 +2,7 @@
 // в стандартный серийный порт (USB) (ограничения по числу каналов нет)
 // Для Atmega328P
 
-#include <AltSoftSerial.h>
+#include "AltSoftSerial.h"
 AltSoftSerial mySerial(8, 9);   // используются только эти пины, другие назначить нельзя
 
 volatile byte ibyte;
