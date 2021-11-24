@@ -1,5 +1,5 @@
 #include <inttypes.h>
-#include <AltSoftSerial.h>
+#include "AltSoftSerial.h"
 class AltSoftSerial;
 class Stream;
 
