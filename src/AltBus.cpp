@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include "AltIBus.h"
-#include <AltSoftSerial.h>
+#include "AltSoftSerial.h"
 SIBus IBus;
 void SIBus::begin(AltSoftSerial& serial)
 {
