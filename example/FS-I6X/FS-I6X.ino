@@ -1,5 +1,5 @@
 #include "AltIBus.h"             // SoftIBus library
-AltSoftSerial IBuspin(8, 9);     // "serial" port on which we will be running the IBus connection. 
+AltSoftSerial IBuspin; //(8, 9); // "serial" port on which we will be running the IBus connection. 
                                  // Since to read values we only need the Rx, just connect pin D7 and leave D8 open
 
 int ch = 14;                      // число каналов радиоаппаратуры RC
