@@ -1,5 +1,5 @@
 #include "AltIBus.h"             // AltIBus library
-AltSoftSerial IBuspin(8, 9);     // "serial" port on which we will be running the IBus connection. 
+AltSoftSerial IBuspin; //(8, 9);     // "serial" port on which we will be running the IBus connection. 
                                  // Since to read values we only need the Rx, just connect pin D8 and leave D9 open
 
 int ch = 10;                      // число каналов радиоаппаратуры FlySky FS-I6S
