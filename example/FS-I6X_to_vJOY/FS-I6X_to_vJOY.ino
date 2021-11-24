@@ -3,7 +3,7 @@
 // Для Atmega328P
 
 #include "AltSoftSerial.h"
-AltSoftSerial mySerial(8, 9);   // используются только эти пины, другие назначить нельзя
+AltSoftSerial mySerial; //(8, 9);   // используются только эти пины, другие назначить нельзя
 
 volatile byte ibyte;
 
