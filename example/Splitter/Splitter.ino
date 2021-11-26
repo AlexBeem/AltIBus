@@ -7,7 +7,7 @@ AltSoftSerial iBUS(P_RX, P_TX);     // Software serial port for control the Blue
 
 void setup()
 {
-  iBUS.begin(115200); // Initialize the serial port
+  iBUS.begin(115200, SERIAL_8N1); // Initialize the serial port
   Serial.begin(115200);
 }
 
